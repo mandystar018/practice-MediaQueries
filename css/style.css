@@ -1,0 +1,28 @@
+h2 {
+  color: coral;
+}
+.column1 {
+}
+
+.column2 {
+  
+}
+
+.column3 {
+ 
+}
+
+@media screen and (max-width:768px){
+  body{
+    .column{
+      float: right;
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  body {
+    background-color: purple;
+    color: goldenrod
+  }
+}
